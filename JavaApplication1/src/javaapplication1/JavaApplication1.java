@@ -1,0 +1,3025 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author 
+ */
+public class JavaApplication1 {
+   public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter the ARABIC NUMBER to convert it into ROMAN NUMERAL");
+        int number = scan.nextInt();
+        
+        if(number==1){
+    System.out.println("I");
+    }
+    if(number==2){
+    System.out.println("II");
+}
+if(number==3){
+    System.out.println("III");
+}
+if(number==4){
+    System.out.println("IV");
+}
+if(number==5){
+    System.out.println("V");
+}
+if(number==6){
+    System.out.println("VI");
+}
+if(number==7){
+    System.out.println("VII");
+}
+if(number==8){
+    System.out.println("VIII");
+}
+if(number==9){
+    System.out.println("IX");
+}
+if(number==10){
+    System.out.println("X");
+}
+if(number==11){
+    System.out.println("XI");
+}
+if(number==12){
+    System.out.println("XII");
+}
+if(number==13){
+    System.out.println("XIII");
+}
+if(number==14){
+    System.out.println("XIV");
+}
+if(number==15){
+    System.out.println("XV");
+}
+if(number==16){
+    System.out.println("XVI");
+}
+if(number==17){
+    System.out.println("XVII");
+}
+if(number==18){
+    System.out.println("XVIII");
+}
+if(number==19){
+    System.out.println("XIX");
+}
+if(number==20){
+    System.out.println("XX");
+}
+if(number==21){
+    System.out.println("XXI");
+}
+if(number==22){
+    System.out.println("XXII");
+}
+if(number==23){
+    System.out.println("XXIII");
+}
+if(number==24){
+    System.out.println("XXIV");
+}
+if(number==25){
+    System.out.println("XXV");
+}
+if(number==26){
+    System.out.println("XXVI");
+}
+if(number==27){
+    System.out.println("XXVII");
+}
+if(number==28){
+    System.out.println("XXVIII");
+}
+if(number==29){
+    System.out.println("XXIX");
+}
+if(number==30){
+    System.out.println("XXX");
+}
+if(number==31){
+    System.out.println("XXXI");
+}
+if(number==32){
+    System.out.println("XXXII");
+}
+if(number==33){
+    System.out.println("XXXIII");
+}
+if(number==34){
+    System.out.println("XXXIV");
+}
+if(number==35){
+    System.out.println("XXXV");
+}
+if(number==36){
+    System.out.println("XXXVI");
+}
+if(number==37){
+    System.out.println("XXXVII");
+}
+if(number==38){
+    System.out.println("XXXVIII");
+}
+if(number==39){
+    System.out.println("XXXIX");
+}
+if(number==40){
+    System.out.println("XL");
+}
+if(number==41){
+    System.out.println("XLI");
+}
+if(number==42){
+    System.out.println("XLII");
+}
+if(number==43){
+    System.out.println("XLIII");
+}
+if(number==44){
+    System.out.println("XLIV");
+}
+if(number==45){
+    System.out.println("XLV");
+}
+if(number==46){
+    System.out.println("XLVI");
+}
+if(number==47){
+    System.out.println("XLVII");
+}
+if(number==48){
+    System.out.println("XLVIII");
+}
+if(number==49){
+    System.out.println("XLIX");
+}
+if(number==50){
+    System.out.println("L");
+}
+if(number==51){
+    System.out.println("LI");
+}
+if(number==52){
+    System.out.println("LII");
+}
+if(number==53){
+    System.out.println("LIII");
+}
+if(number==54){
+    System.out.println("LIV");
+}
+if(number==55){
+    System.out.println("LV");
+}
+if(number==56){
+    System.out.println("LVI");
+}
+if(number==57){
+    System.out.println("LVII");
+}
+if(number==58){
+    System.out.println("LVIII");
+}
+if(number==59){
+    System.out.println("LIX");
+}
+if(number==60){
+    System.out.println("LX");
+}
+if(number==61){
+    System.out.println("LXI");
+}
+if(number==62){
+    System.out.println("LXII");
+}
+if(number==63){
+    System.out.println("LXIII");
+}
+if(number==64){
+    System.out.println("LXIV");
+}
+if(number==65){
+    System.out.println("LXV");
+}
+if(number==66){
+    System.out.println("LXVI");
+}
+if(number==67){
+    System.out.println("LXVII");
+}
+if(number==68){
+    System.out.println("LXVIII");
+}
+if(number==69){
+    System.out.println("LXIX");
+}
+if(number==70){
+    System.out.println("LXX");
+}
+if(number==71){
+    System.out.println("LXXI");
+}
+if(number==72){
+    System.out.println("LXXII");
+}
+if(number==73){
+    System.out.println("LXXIII");
+}
+if(number==74){
+    System.out.println("LXXIV");
+}
+if(number==75){
+    System.out.println("LXXV");
+}
+if(number==76){
+    System.out.println("LXXVI");
+}
+if(number==77){
+    System.out.println("LXXVII");
+}
+if(number==78){
+    System.out.println("LXXVIII");
+}
+if(number==79){
+    System.out.println("LXXIX");
+}
+if(number==80){
+    System.out.println("LXXX");
+}
+if(number==81){
+    System.out.println("LXXXI");
+}
+if(number==82){
+    System.out.println("LXXXII");
+}
+if(number==83){
+    System.out.println("LXXXIII");
+}
+if(number==84){
+    System.out.println("LXXXIV");
+}
+if(number==85){
+    System.out.println("LXXXV");
+}
+if(number==86){
+    System.out.println("LXXXVI");
+}
+if(number==87){
+    System.out.println("LXXXVII");
+}
+if(number==88){
+    System.out.println("LXXXVIII");
+}
+if(number==89){
+    System.out.println("LXXXIX");
+}
+if(number==90){
+    System.out.println("XC");
+}
+if(number==91){
+    System.out.println("XCI");
+}
+if(number==92){
+    System.out.println("XCII");
+}
+if(number==93){
+    System.out.println("XCIII");
+}
+if(number==94){
+    System.out.println("XCIV");
+}
+if(number==95){
+    System.out.println("XCV");
+}
+if(number==96){
+    System.out.println("XCVI");
+}
+if(number==97){
+    System.out.println("XCVII");
+}
+if(number==98){
+    System.out.println("XCVIII");
+}
+if(number==99){
+    System.out.println("XCIX");
+}
+if(number==100){
+    System.out.println("C");
+}
+if(number==101){
+    System.out.println("CI");
+}
+if(number==102){
+    System.out.println("CII");
+}
+if(number==103){
+    System.out.println("CIII");
+}
+if(number==104){
+    System.out.println("CIV");
+}
+if(number==105){
+    System.out.println("CV");
+}
+if(number==106){
+    System.out.println("CVI");
+}
+if(number==107){
+    System.out.println("CVII");
+}
+if(number==108){
+    System.out.println("CVIII");
+}
+if(number==109){
+    System.out.println("CIX");
+}
+if(number==110){
+    System.out.println("CX");
+}
+if(number==111){
+    System.out.println("CXI");
+}
+if(number==112){
+    System.out.println("CXII");
+}
+if(number==113){
+    System.out.println("CXIII");
+}
+if(number==114){
+    System.out.println("CXIV");
+}
+if(number==115){
+    System.out.println("CXV");
+}
+if(number==116){
+    System.out.println("CXVI");
+}
+if(number==117){
+    System.out.println("CXVII");
+}
+if(number==118){
+    System.out.println("CXVIII");
+}
+if(number==119){
+    System.out.println("CXIX");
+}
+if(number==120){
+    System.out.println("CXX");
+}
+if(number==121){
+    System.out.println("CXXI");
+}
+if(number==122){
+    System.out.println("CXXII");
+}
+if(number==123){
+    System.out.println("CXXIII");
+}
+if(number==124){
+    System.out.println("CXXIV");
+}
+if(number==125){
+    System.out.println("CXXV");
+}
+if(number==126){
+    System.out.println("CXXVI");
+}
+if(number==127){
+    System.out.println("CXXVII");
+}
+if(number==128){
+    System.out.println("CXXVIII");
+}
+if(number==129){
+    System.out.println("CXXIX");
+}
+if(number==130){
+    System.out.println("CXXX");
+}
+if(number==131){
+    System.out.println("CXXXI");
+}
+if(number==132){
+    System.out.println("CXXXII");
+}
+if(number==133){
+    System.out.println("CXXXIII");
+}
+if(number==134){
+    System.out.println("CXXXIV");
+}
+if(number==135){
+    System.out.println("CXXXV");
+}
+if(number==136){
+    System.out.println("CXXXVI");
+}
+if(number==137){
+    System.out.println("CXXXVII");
+}
+if(number==138){
+    System.out.println("CXXXVIII");
+}
+if(number==139){
+    System.out.println("CXXXIX");
+}
+if(number==140){
+    System.out.println("CXL");
+}
+if(number==141){
+    System.out.println("CXLI");
+}
+if(number==142){
+    System.out.println("CXLII");
+}
+if(number==143){
+    System.out.println("CXLIII");
+}
+if(number==144){
+    System.out.println("CXLIV");
+}
+if(number==145){
+    System.out.println("CXLV");
+}
+if(number==146){
+    System.out.println("CXLVI");
+}
+if(number==147){
+    System.out.println("CXLVII");
+}
+if(number==148){
+    System.out.println("CXLVIII");
+}
+if(number==149){
+    System.out.println("CXLIX");
+}
+if(number==150){
+    System.out.println("CL");
+}
+if(number==151){
+    System.out.println("CLI");
+}
+if(number==152){
+    System.out.println("CLII");
+}
+if(number==153){
+    System.out.println("CLIII");
+}
+if(number==154){
+    System.out.println("CLIV");
+}
+if(number==155){
+    System.out.println("CLV");
+}
+if(number==156){
+    System.out.println("CLVI");
+}
+if(number==157){
+    System.out.println("CLVII");
+}
+if(number==158){
+    System.out.println("CLVIII");
+}
+if(number==159){
+    System.out.println("CLIX");
+}
+if(number==160){
+    System.out.println("CLX");
+}
+if(number==161){
+    System.out.println("CLXI");
+}
+if(number==162){
+    System.out.println("CLXII");
+}
+if(number==163){
+    System.out.println("CLXIII");
+}
+if(number==164){
+    System.out.println("CLXIV");
+}
+if(number==165){
+    System.out.println("CLXV");
+}
+if(number==166){
+    System.out.println("CLXVI");
+}
+if(number==167){
+    System.out.println("CLXVII");
+}
+if(number==168){
+    System.out.println("CLXVIII");
+}
+if(number==169){
+    System.out.println("CLXIX");
+}
+if(number==170){
+    System.out.println("CLXX");
+}
+if(number==171){
+    System.out.println("CLXXI");
+}
+if(number==172){
+    System.out.println("CLXXII");
+}
+if(number==173){
+    System.out.println("CLXXIII");
+}
+if(number==174){
+    System.out.println("CLXXIV");
+}
+if(number==175){
+    System.out.println("CLXXV");
+}
+if(number==176){
+    System.out.println("CLXXVI");
+}
+if(number==177){
+    System.out.println("CLXXVII");
+}
+if(number==178){
+    System.out.println("CLXXVIII");
+}
+if(number==179){
+    System.out.println("CLXXIX");
+}
+if(number==180){
+    System.out.println("CLXXX");
+}
+if(number==181){
+    System.out.println("CLXXXI");
+}
+if(number==182){
+    System.out.println("CLXXXII");
+}
+if(number==183){
+    System.out.println("CLXXXIII");
+}
+if(number==184){
+    System.out.println("CLXXXIV");
+}
+if(number==185){
+    System.out.println("CLXXXV");
+}
+if(number==186){
+    System.out.println("CLXXXVI");
+}
+if(number==187){
+    System.out.println("CLXXXVII");
+}
+if(number==188){
+    System.out.println("CLXXXVIII");
+}
+if(number==189){
+    System.out.println("CLXXXIX");
+}
+if(number==190){
+    System.out.println("CXC");
+}
+if(number==191){
+    System.out.println("CXCI");
+}
+if(number==192){
+    System.out.println("CXCII");
+}
+if(number==193){
+    System.out.println("CXCIII");
+}
+if(number==194){
+    System.out.println("CXCIV");
+}
+if(number==195){
+    System.out.println("CXCV");
+}
+if(number==196){
+    System.out.println("CXCVI");
+}
+if(number==197){
+    System.out.println("CXCVII");
+}
+if(number==198){
+    System.out.println("CXCVIII");
+}
+if(number==199){
+    System.out.println("CXCIX");
+}
+if(number==200){
+    System.out.println("CC");
+}
+if(number==201){
+    System.out.println("CCI");
+}
+if(number==202){
+    System.out.println("CCII");
+}
+if(number==203){
+    System.out.println("CCIII");
+}
+if(number==204){
+    System.out.println("CCIV");
+}
+if(number==205){
+    System.out.println("CCV");
+}
+if(number==206){
+    System.out.println("CCVI");
+}
+if(number==207){
+    System.out.println("CCVII");
+}
+if(number==208){
+    System.out.println("CCVIII");
+}
+if(number==209){
+    System.out.println("CCIX");
+}
+if(number==210){
+    System.out.println("CCX");
+}
+if(number==211){
+    System.out.println("CCXI");
+}
+if(number==212){
+    System.out.println("CCXII");
+}
+if(number==213){
+    System.out.println("CCXIII");
+}
+if(number==214){
+    System.out.println("CCXIV");
+}
+if(number==215){
+    System.out.println("CCXV");
+}
+if(number==216){
+    System.out.println("CCXVI");
+}
+if(number==217){
+    System.out.println("CCXVII");
+}
+if(number==218){
+    System.out.println("CCXVIII");
+}
+if(number==219){
+    System.out.println("CCXIX");
+}
+if(number==220){
+    System.out.println("CCXX");
+}
+if(number==221){
+    System.out.println("CCXXI");
+}
+if(number==222){
+    System.out.println("CCXXII");
+}
+if(number==223){
+    System.out.println("CCXXIII");
+}
+if(number==224){
+    System.out.println("CCXXIV");
+}
+if(number==225){
+    System.out.println("CCXXV");
+}
+if(number==226){
+    System.out.println("CCXXVI");
+}
+if(number==227){
+    System.out.println("CCXXVII");
+}
+if(number==228){
+    System.out.println("CCXXVIII");
+}
+if(number==229){
+    System.out.println("CCXXIX");
+}
+if(number==230){
+    System.out.println("CCXXX");
+}
+if(number==231){
+    System.out.println("CCXXXI");
+}
+if(number==232){
+    System.out.println("CCXXXII");
+}
+if(number==233){
+    System.out.println("CCXXXIII");
+}
+if(number==234){
+    System.out.println("CCXXXIV");
+}
+if(number==235){
+    System.out.println("CCXXXV");
+}
+if(number==236){
+    System.out.println("CCXXXVI");
+}
+if(number==237){
+    System.out.println("CCXXXVII");
+}
+if(number==238){
+    System.out.println("CCXXXVIII");
+}
+if(number==239){
+    System.out.println("CCXXXIX");
+}
+if(number==240){
+    System.out.println("CCXL");
+}
+if(number==241){
+    System.out.println("CCXLI");
+}
+if(number==242){
+    System.out.println("CCXLII");
+}
+if(number==243){
+    System.out.println("CCXLIII");
+}
+if(number==244){
+    System.out.println("CCXLIV");
+}
+if(number==245){
+    System.out.println("CCXLV");
+}
+if(number==246){
+    System.out.println("CCXLVI");
+}
+if(number==247){
+    System.out.println("CCXLVII");
+}
+if(number==248){
+    System.out.println("CCXLVIII");
+}
+if(number==249){
+    System.out.println("CCXLIX");
+}
+if(number==250){
+    System.out.println("CCL");
+}
+if(number==251){
+    System.out.println("CCLI");
+}
+if(number==252){
+    System.out.println("CCLII");
+}
+if(number==253){
+    System.out.println("CCLIII");
+}
+if(number==254){
+    System.out.println("CCLIV");
+}
+if(number==255){
+    System.out.println("CCLV");
+}
+if(number==256){
+    System.out.println("CCLVI");
+}
+if(number==257){
+    System.out.println("CCLVII");
+}
+if(number==258){
+    System.out.println("CCLVIII");
+}
+if(number==259){
+    System.out.println("CCLIX");
+}
+if(number==260){
+    System.out.println("CCLX");
+}
+if(number==261){
+    System.out.println("CCLXI");
+}
+if(number==262){
+    System.out.println("CCLXII");
+}
+if(number==263){
+    System.out.println("CCLXIII");
+}
+if(number==264){
+    System.out.println("CCLXIV");
+}
+if(number==265){
+    System.out.println("CCLXV");
+}
+if(number==266){
+    System.out.println("CCLXVI");
+}
+if(number==267){
+    System.out.println("CCLXVII");
+}
+if(number==268){
+    System.out.println("CCLXVIII");
+}
+if(number==269){
+    System.out.println("CCLXIX");
+}
+if(number==270){
+    System.out.println("CCLXX");
+}
+if(number==271){
+    System.out.println("CCLXXI");
+}
+if(number==272){
+    System.out.println("CCLXXII");
+}
+if(number==273){
+    System.out.println("CCLXXIII");
+}
+if(number==274){
+    System.out.println("CCLXXIV");
+}
+if(number==275){
+    System.out.println("CCLXXV");
+}
+if(number==276){
+    System.out.println("CCLXXVI");
+}
+if(number==277){
+    System.out.println("CCLXXVII");
+}
+if(number==278){
+    System.out.println("CCLXXVIII");
+}
+if(number==279){
+    System.out.println("CCLXXIX");
+}
+if(number==280){
+    System.out.println("CCLXXX");
+}
+if(number==281){
+    System.out.println("CCLXXXI");
+}
+if(number==282){
+    System.out.println("CCLXXXII");
+}
+if(number==283){
+    System.out.println("CCLXXXIII");
+}
+if(number==284){
+    System.out.println("CCLXXXIV");
+}
+if(number==285){
+    System.out.println("CCLXXXV");
+}
+if(number==286){
+    System.out.println("CCLXXXVI");
+}
+if(number==287){
+    System.out.println("CCLXXXVII");
+}
+if(number==288){
+    System.out.println("CCLXXXVIII");
+}
+if(number==289){
+    System.out.println("CCLXXXIX");
+}
+if(number==290){
+    System.out.println("CCXC");
+}
+if(number==291){
+    System.out.println("CCXCI");
+}
+if(number==292){
+    System.out.println("CCXCII");
+}
+if(number==293){
+    System.out.println("CCXCIII");
+}
+if(number==294){
+    System.out.println("CCXCIV");
+}
+if(number==295){
+    System.out.println("CCXCV");
+}
+if(number==296){
+    System.out.println("CCXCVI");
+}
+if(number==297){
+    System.out.println("CCXCVII");
+}
+if(number==298){
+    System.out.println("CCXCVIII");
+}
+if(number==299){
+    System.out.println("CCXCIX");
+}
+if(number==300){
+    System.out.println("CCC");
+}
+if(number==301){
+    System.out.println("CCCI");
+}
+if(number==302){
+    System.out.println("CCCII");
+}
+if(number==303){
+    System.out.println("CCCIII");
+}
+if(number==304){
+    System.out.println("CCCIV");
+}
+if(number==305){
+    System.out.println("CCCV");
+}
+if(number==306){
+    System.out.println("CCCVI");
+}
+if(number==307){
+    System.out.println("CCCVII");
+}
+if(number==308){
+    System.out.println("CCCVIII");
+}
+if(number==309){
+    System.out.println("CCCIX");
+}
+if(number==310){
+    System.out.println("CCCX");
+}
+if(number==311){
+    System.out.println("CCCXI");
+}
+if(number==312){
+    System.out.println("CCCXII");
+}
+if(number==313){
+    System.out.println("CCCXIII");
+}
+if(number==314){
+    System.out.println("CCCXIV");
+}
+if(number==315){
+    System.out.println("CCCXV");
+}
+if(number==316){
+    System.out.println("CCCXVI");
+}
+if(number==317){
+    System.out.println("CCCXVII");
+}
+if(number==318){
+    System.out.println("CCCXVIII");
+}
+if(number==319){
+    System.out.println("CCCXIX");
+}
+if(number==320){
+    System.out.println("CCCXX");
+}
+if(number==321){
+    System.out.println("CCCXXI");
+}
+if(number==322){
+    System.out.println("CCCXXII");
+}
+if(number==323){
+    System.out.println("CCCXXIII");
+}
+if(number==324){
+    System.out.println("CCCXXIV");
+}
+if(number==325){
+    System.out.println("CCCXXV");
+}
+if(number==326){
+    System.out.println("CCCXXVI");
+}
+if(number==327){
+    System.out.println("CCCXXVII");
+}
+if(number==328){
+    System.out.println("CCCXXVIII");
+}
+if(number==329){
+    System.out.println("CCCXXIX");
+}
+if(number==330){
+    System.out.println("CCCXXX");
+}
+if(number==331){
+    System.out.println("CCCXXXI");
+}
+if(number==332){
+    System.out.println("CCCXXXII");
+}
+if(number==333){
+    System.out.println("CCCXXXIII");
+}
+if(number==334){
+    System.out.println("CCCXXXIV");
+}
+if(number==335){
+    System.out.println("CCCXXXV");
+}
+if(number==336){
+    System.out.println("CCCXXXVI");
+}
+if(number==337){
+    System.out.println("CCCXXXVII");
+}
+if(number==338){
+    System.out.println("CCCXXXVIII");
+}
+if(number==339){
+    System.out.println("CCCXXXIX");
+}
+if(number==340){
+    System.out.println("CCCXL");
+}
+if(number==341){
+    System.out.println("CCCXLI");
+}
+if(number==342){
+    System.out.println("CCCXLII");
+}
+if(number==343){
+    System.out.println("CCCXLIII");
+}
+if(number==344){
+    System.out.println("CCCXLIV");
+}
+if(number==345){
+    System.out.println("CCCXLV");
+}
+if(number==346){
+    System.out.println("CCCXLVI");
+}
+if(number==347){
+    System.out.println("CCCXLVII");
+}
+if(number==348){
+    System.out.println("CCCXLVIII");
+}
+if(number==349){
+    System.out.println("CCCXLIX");
+}
+if(number==350){
+    System.out.println("CCCL");
+}
+if(number==351){
+    System.out.println("CCCLI");
+}
+if(number==352){
+    System.out.println("CCCLII");
+}
+if(number==353){
+    System.out.println("CCCLIII");
+}
+if(number==354){
+    System.out.println("CCCLIV");
+}
+if(number==355){
+    System.out.println("CCCLV");
+}
+if(number==356){
+    System.out.println("CCCLVI");
+}
+if(number==357){
+    System.out.println("CCCLVII");
+}
+if(number==358){
+    System.out.println("CCCLVIII");
+}
+if(number==359){
+    System.out.println("CCCLIX");
+}
+if(number==360){
+    System.out.println("CCCLX");
+}
+if(number==361){
+    System.out.println("CCCLXI");
+}
+if(number==362){
+    System.out.println("CCCLXII");
+}
+if(number==363){
+    System.out.println("CCCLXIII");
+}
+if(number==364){
+    System.out.println("CCCLXIV");
+}
+if(number==365){
+    System.out.println("CCCLXV");
+}
+if(number==366){
+    System.out.println("CCCLXVI");
+}
+if(number==367){
+    System.out.println("CCCLXVII");
+}
+if(number==368){
+    System.out.println("CCCLXVIII");
+}
+if(number==369){
+    System.out.println("CCCLXIX");
+}
+if(number==370){
+    System.out.println("CCCLXX");
+}
+if(number==371){
+    System.out.println("CCCLXXI");
+}
+if(number==372){
+    System.out.println("CCCLXXII");
+}
+if(number==373){
+    System.out.println("CCCLXXIII");
+}
+if(number==374){
+    System.out.println("CCCLXXIV");
+}
+if(number==375){
+    System.out.println("CCCLXXV");
+}
+if(number==376){
+    System.out.println("CCCLXXVI");
+}
+if(number==377){
+    System.out.println("CCCLXXVII");
+}
+if(number==378){
+    System.out.println("CCCLXXVIII");
+}
+if(number==379){
+    System.out.println("CCCLXXIX");
+}
+if(number==380){
+    System.out.println("CCCLXXX");
+}
+if(number==381){
+    System.out.println("CCCLXXXI");
+}
+if(number==382){
+    System.out.println("CCCLXXXII");
+}
+if(number==383){
+    System.out.println("CCCLXXXIII");
+}
+if(number==384){
+    System.out.println("CCCLXXXIV");
+}
+if(number==385){
+    System.out.println("CCCLXXXV");
+}
+if(number==386){
+    System.out.println("CCCLXXXVI");
+}
+if(number==387){
+    System.out.println("CCCLXXXVII");
+}
+if(number==388){
+    System.out.println("CCCLXXXVIII");
+}
+if(number==389){
+    System.out.println("CCCLXXXIX");
+}
+if(number==390){
+    System.out.println("CCCXC");
+}
+if(number==391){
+    System.out.println("CCCXCI");
+}
+if(number==392){
+    System.out.println("CCCXCII");
+}
+if(number==393){
+    System.out.println("CCCXCIII");
+}
+if(number==394){
+    System.out.println("CCCXCIV");
+}
+if(number==395){
+    System.out.println("CCCXCV");
+}
+if(number==396){
+    System.out.println("CCCXCVI");
+}
+if(number==397){
+    System.out.println("CCCXCVII");
+}
+if(number==398){
+    System.out.println("CCCXCVIII");
+}
+if(number==399){
+    System.out.println("CCCXCIX");
+}
+if(number==400){
+    System.out.println("CD");
+}
+if(number==401){
+    System.out.println("CDI");
+}
+if(number==402){
+    System.out.println("CDII");
+}
+if(number==403){
+    System.out.println("CDIII");
+}
+if(number==404){
+    System.out.println("CDIV");
+}
+if(number==405){
+    System.out.println("CDV");
+}
+if(number==406){
+    System.out.println("CDVI");
+}
+if(number==407){
+    System.out.println("CDVII");
+}
+if(number==408){
+    System.out.println("CDVIII");
+}
+if(number==409){
+    System.out.println("CDIX");
+}
+if(number==410){
+    System.out.println("CDX");
+}
+if(number==411){
+    System.out.println("CDXI");
+}
+if(number==412){
+    System.out.println("CDXII");
+}
+if(number==413){
+    System.out.println("CDXIII");
+}
+if(number==414){
+    System.out.println("CDXIV");
+}
+if(number==415){
+    System.out.println("CDXV");
+}
+if(number==416){
+    System.out.println("CDXVI");
+}
+if(number==417){
+    System.out.println("CDXVII");
+}
+if(number==418){
+    System.out.println("CDXVIII");
+}
+if(number==419){
+    System.out.println("CDXIX");
+}
+if(number==420){
+    System.out.println("CDXX");
+}
+if(number==421){
+    System.out.println("CDXXI");
+}
+if(number==422){
+    System.out.println("CDXXII");
+}
+if(number==423){
+    System.out.println("CDXXIII");
+}
+if(number==424){
+    System.out.println("CDXXIV");
+}
+if(number==425){
+    System.out.println("CDXXV");
+}
+if(number==426){
+    System.out.println("CDXXVI");
+}
+if(number==427){
+    System.out.println("CDXXVII");
+}
+if(number==428){
+    System.out.println("CDXXVIII");
+}
+if(number==429){
+    System.out.println("CDXXIX");
+}
+if(number==430){
+    System.out.println("CDXXX");
+}
+if(number==431){
+    System.out.println("CDXXXI");
+}
+if(number==432){
+    System.out.println("CDXXXII");
+}
+if(number==433){
+    System.out.println("CDXXXIII");
+}
+if(number==434){
+    System.out.println("CDXXXIV");
+}
+if(number==435){
+    System.out.println("CDXXXV");
+}
+if(number==436){
+    System.out.println("CDXXXVI");
+}
+if(number==437){
+    System.out.println("CDXXXVII");
+}
+if(number==438){
+    System.out.println("CDXXXVIII");
+}
+if(number==439){
+    System.out.println("CDXXXIX");
+}
+if(number==440){
+    System.out.println("CDXL");
+}
+if(number==441){
+    System.out.println("CDXLI");
+}
+if(number==442){
+    System.out.println("CDXLII");
+}
+if(number==443){
+    System.out.println("CDXLIII");
+}
+if(number==444){
+    System.out.println("CDXLIV");
+}
+if(number==445){
+    System.out.println("CDXLV");
+}
+if(number==446){
+    System.out.println("CDXLVI");
+}
+if(number==447){
+    System.out.println("CDXLVII");
+}
+if(number==448){
+    System.out.println("CDXLVIII");
+}
+if(number==449){
+    System.out.println("CDXLIX");
+}
+if(number==450){
+    System.out.println("CDL");
+}
+if(number==451){
+    System.out.println("CDLI");
+}
+if(number==452){
+    System.out.println("CDLII");
+}
+if(number==453){
+    System.out.println("CDLIII");
+}
+if(number==454){
+    System.out.println("CDLIV");
+}
+if(number==455){
+    System.out.println("CDLV");
+}
+if(number==456){
+    System.out.println("CDLVI");
+}
+if(number==457){
+    System.out.println("CDLVII");
+}
+if(number==458){
+    System.out.println("CDLVIII");
+}
+if(number==459){
+    System.out.println("CDLIX");
+}
+if(number==460){
+    System.out.println("CDLX");
+}
+if(number==461){
+    System.out.println("CDLXI");
+}
+if(number==462){
+    System.out.println("CDLXII");
+}
+if(number==463){
+    System.out.println("CDLXIII");
+}
+if(number==464){
+    System.out.println("CDLXIV");
+}
+if(number==465){
+    System.out.println("CDLXV");
+}
+if(number==466){
+    System.out.println("CDLXVI");
+}
+if(number==467){
+    System.out.println("CDLXVII");
+}
+if(number==468){
+    System.out.println("CDLXVIII");
+}
+if(number==469){
+    System.out.println("CDLXIX");
+}
+if(number==470){
+    System.out.println("CDLXX");
+}
+if(number==471){
+    System.out.println("CDLXXI");
+}
+if(number==472){
+    System.out.println("CDLXXII");
+}
+if(number==473){
+    System.out.println("CDLXXIII");
+}
+if(number==474){
+    System.out.println("CDLXXIV");
+}
+if(number==475){
+    System.out.println("CDLXXV");
+}
+if(number==476){
+    System.out.println("CDLXXVI");
+}
+if(number==477){
+    System.out.println("CDLXXVII");
+}
+if(number==478){
+    System.out.println("CDLXXVIII");
+}
+if(number==479){
+    System.out.println("CDLXXIX");
+}
+if(number==480){
+    System.out.println("CDLXXX");
+}
+if(number==481){
+    System.out.println("CDLXXXI");
+}
+if(number==482){
+    System.out.println("CDLXXXII");
+}
+if(number==483){
+    System.out.println("CDLXXXIII");
+}
+if(number==484){
+    System.out.println("CDLXXXIV");
+}
+if(number==485){
+    System.out.println("CDLXXXV");
+}
+if(number==486){
+    System.out.println("CDLXXXVI");
+}
+if(number==487){
+    System.out.println("CDLXXXVII");
+}
+if(number==488){
+    System.out.println("CDLXXXVIII");
+}
+if(number==489){
+    System.out.println("CDLXXXIX");
+}
+if(number==490){
+    System.out.println("CDXC");
+}
+if(number==491){
+    System.out.println("CDXCI");
+}
+if(number==492){
+    System.out.println("CDXCII");
+}
+if(number==493){
+    System.out.println("CDXCIII");
+}
+if(number==494){
+    System.out.println("CDXCIV");
+}
+if(number==495){
+    System.out.println("CDXCV");
+}
+if(number==496){
+    System.out.println("CDXCVI");
+}
+if(number==497){
+    System.out.println("CDXCVII");
+}
+if(number==498){
+    System.out.println("CDXCVIII");
+}
+if(number==499){
+    System.out.println("CDXCIX");
+}
+if(number==500){
+    System.out.println("D");
+}
+if(number==501){
+    System.out.println("DI");
+}
+if(number==502){
+    System.out.println("DII");
+}
+if(number==503){
+    System.out.println("DIII");
+}
+if(number==504){
+    System.out.println("DIV");
+}
+if(number==505){
+    System.out.println("DV");
+}
+if(number==506){
+    System.out.println("DVI");
+}
+if(number==507){
+    System.out.println("DVII");
+}
+if(number==508){
+    System.out.println("DVIII");
+}
+if(number==509){
+    System.out.println("DIX");
+}
+if(number==510){
+    System.out.println("DX");
+}
+if(number==511){
+    System.out.println("DXI");
+}
+if(number==512){
+    System.out.println("DXII");
+}
+if(number==513){
+    System.out.println("DXIII");
+}
+if(number==514){
+    System.out.println("DXIV");
+}
+if(number==515){
+    System.out.println("DXV");
+}
+if(number==516){
+    System.out.println("DXVI");
+}
+if(number==517){
+    System.out.println("DXVII");
+}
+if(number==518){
+    System.out.println("DXVIII");
+}
+if(number==519){
+    System.out.println("DXIX");
+}
+if(number==520){
+    System.out.println("DXX");
+}
+if(number==521){
+    System.out.println("DXXI");
+}
+if(number==522){
+    System.out.println("DXXII");
+}
+if(number==523){
+    System.out.println("DXXIII");
+}
+if(number==524){
+    System.out.println("DXXIV");
+}
+if(number==525){
+    System.out.println("DXXV");
+}
+if(number==526){
+    System.out.println("DXXVI");
+}
+if(number==527){
+    System.out.println("DXXVII");
+}
+if(number==528){
+    System.out.println("DXXVIII");
+}
+if(number==529){
+    System.out.println("DXXIX");
+}
+if(number==530){
+    System.out.println("DXXX");
+}
+if(number==531){
+    System.out.println("DXXXI");
+}
+if(number==532){
+    System.out.println("DXXXII");
+}
+if(number==533){
+    System.out.println("DXXXIII");
+}
+if(number==534){
+    System.out.println("DXXXIV");
+}
+if(number==535){
+    System.out.println("DXXXV");
+}
+if(number==536){
+    System.out.println("DXXXVI");
+}
+if(number==537){
+    System.out.println("DXXXVII");
+}
+if(number==538){
+    System.out.println("DXXXVIII");
+}
+if(number==539){
+    System.out.println("DXXXIX");
+}
+if(number==540){
+    System.out.println("DXL");
+}
+if(number==541){
+    System.out.println("DXLI");
+}
+if(number==542){
+    System.out.println("DXLII");
+}
+if(number==543){
+    System.out.println("DXLIII");
+}
+if(number==544){
+    System.out.println("DXLIV");
+}
+if(number==545){
+    System.out.println("DXLV");
+}
+if(number==546){
+    System.out.println("DXLVI");
+}
+if(number==547){
+    System.out.println("DXLVII");
+}
+if(number==548){
+    System.out.println("DXLVIII");
+}
+if(number==549){
+    System.out.println("DXLIX");
+}
+if(number==550){
+    System.out.println("DL");
+}
+if(number==551){
+    System.out.println("DLI");
+}
+if(number==552){
+    System.out.println("DLII");
+}
+if(number==553){
+    System.out.println("DLIII");
+}
+if(number==554){
+    System.out.println("DLIV");
+}
+if(number==555){
+    System.out.println("DLV");
+}
+if(number==556){
+    System.out.println("DLVI");
+}
+if(number==557){
+    System.out.println("DLVII");
+}
+if(number==558){
+    System.out.println("DLVIII");
+}
+if(number==559){
+    System.out.println("DLIX");
+}
+if(number==560){
+    System.out.println("DLX");
+}
+if(number==561){
+    System.out.println("DLXI");
+}
+if(number==562){
+    System.out.println("DLXII");
+}
+if(number==563){
+    System.out.println("DLXIII");
+}
+if(number==564){
+    System.out.println("DLXIV");
+}
+if(number==565){
+    System.out.println("DLXV");
+}
+if(number==566){
+    System.out.println("DLXVI");
+}
+if(number==567){
+    System.out.println("DLXVII");
+}
+if(number==568){
+    System.out.println("DLXVIII");
+}
+if(number==569){
+    System.out.println("DLXIX");
+}
+if(number==570){
+    System.out.println("DLXX");
+}
+if(number==571){
+    System.out.println("DLXXI");
+}
+if(number==572){
+    System.out.println("DLXXII");
+}
+if(number==573){
+    System.out.println("DLXXIII");
+}
+if(number==574){
+    System.out.println("DLXXIV");
+}
+if(number==575){
+    System.out.println("DLXXV");
+}
+if(number==576){
+    System.out.println("DLXXVI");
+}
+if(number==577){
+    System.out.println("DLXXVII");
+}
+if(number==578){
+    System.out.println("DLXXVIII");
+}
+if(number==579){
+    System.out.println("DLXXIX");
+}
+if(number==580){
+    System.out.println("DLXXX");
+}
+if(number==581){
+    System.out.println("DLXXXI");
+}
+if(number==582){
+    System.out.println("DLXXXII");
+}
+if(number==583){
+    System.out.println("DLXXXIII");
+}
+if(number==584){
+    System.out.println("DLXXXIV");
+}
+if(number==585){
+    System.out.println("DLXXXV");
+}
+if(number==586){
+    System.out.println("DLXXXVI");
+}
+if(number==587){
+    System.out.println("DLXXXVII");
+}
+if(number==588){
+    System.out.println("DLXXXVIII");
+}
+if(number==589){
+    System.out.println("DLXXXIX");
+}
+if(number==590){
+    System.out.println("DXC");
+}
+if(number==591){
+    System.out.println("DXCI");
+}
+if(number==592){
+    System.out.println("DXCII");
+}
+if(number==593){
+    System.out.println("DXCIII");
+}
+if(number==594){
+    System.out.println("DXCIV");
+}
+if(number==595){
+    System.out.println("DXCV");
+}
+if(number==596){
+    System.out.println("DXCVI");
+}
+if(number==597){
+    System.out.println("DXCVII");
+}
+if(number==598){
+    System.out.println("DXCVIII");
+}
+if(number==599){
+    System.out.println("DXCIX");
+}
+if(number==600){
+    System.out.println("DC");
+}
+if(number==601){
+    System.out.println("DCI");
+}
+if(number==602){
+    System.out.println("DCII");
+}
+if(number==603){
+    System.out.println("DCIII");
+}
+if(number==604){
+    System.out.println("DCIV");
+}
+if(number==605){
+    System.out.println("DCV");
+}
+if(number==606){
+    System.out.println("DCVI");
+}
+if(number==607){
+    System.out.println("DCVII");
+}
+if(number==608){
+    System.out.println("DCVIII");
+}
+if(number==609){
+    System.out.println("DCIX");
+}
+if(number==610){
+    System.out.println("DCX");
+}
+if(number==611){
+    System.out.println("DCXI");
+}
+if(number==612){
+    System.out.println("DCXII");
+}
+if(number==613){
+    System.out.println("DCXIII");
+}
+if(number==614){
+    System.out.println("DCXIV");
+}
+if(number==615){
+    System.out.println("DCXV");
+}
+if(number==616){
+    System.out.println("DCXVI");
+}
+if(number==617){
+    System.out.println("DCXVII");
+}
+if(number==618){
+    System.out.println("DCXVIII");
+}
+if(number==619){
+    System.out.println("DCXIX");
+}
+if(number==620){
+    System.out.println("DCXX");
+}
+if(number==621){
+    System.out.println("DCXXI");
+}
+if(number==622){
+    System.out.println("DCXXII");
+}
+if(number==623){
+    System.out.println("DCXXIII");
+}
+if(number==624){
+    System.out.println("DCXXIV");
+}
+if(number==625){
+    System.out.println("DCXXV");
+}
+if(number==626){
+    System.out.println("DCXXVI");
+}
+if(number==627){
+    System.out.println("DCXXVII");
+}
+if(number==628){
+    System.out.println("DCXXVIII");
+}
+if(number==629){
+    System.out.println("DCXXIX");
+}
+if(number==630){
+    System.out.println("DCXXX");
+}
+if(number==631){
+    System.out.println("DCXXXI");
+}
+if(number==632){
+    System.out.println("DCXXXII");
+}
+if(number==633){
+    System.out.println("DCXXXIII");
+}
+if(number==634){
+    System.out.println("DCXXXIV");
+}
+if(number==635){
+    System.out.println("DCXXXV");
+}
+if(number==636){
+    System.out.println("DCXXXVI");
+}
+if(number==637){
+    System.out.println("DCXXXVII");
+}
+if(number==638){
+    System.out.println("DCXXXVIII");
+}
+if(number==639){
+    System.out.println("DCXXXIX");
+}
+if(number==640){
+    System.out.println("DCXL");
+}
+if(number==641){
+    System.out.println("DCXLI");
+}
+if(number==642){
+    System.out.println("DCXLII");
+}
+if(number==643){
+    System.out.println("DCXLIII");
+}
+if(number==644){
+    System.out.println("DCXLIV");
+}
+if(number==645){
+    System.out.println("DCXLV");
+}
+if(number==646){
+    System.out.println("DCXLVI");
+}
+if(number==647){
+    System.out.println("DCXLVII");
+}
+if(number==648){
+    System.out.println("DCXLVIII");
+}
+if(number==649){
+    System.out.println("DCXLIX");
+}
+if(number==650){
+    System.out.println("DCL");
+}
+if(number==651){
+    System.out.println("DCLI");
+}
+if(number==652){
+    System.out.println("DCLII");
+}
+if(number==653){
+    System.out.println("DCLIII");
+}
+if(number==654){
+    System.out.println("DCLIV");
+}
+if(number==655){
+    System.out.println("DCLV");
+}
+if(number==656){
+    System.out.println("DCLVI");
+}
+if(number==657){
+    System.out.println("DCLVII");
+}
+if(number==658){
+    System.out.println("DCLVIII");
+}
+if(number==659){
+    System.out.println("DCLIX");
+}
+if(number==660){
+    System.out.println("DCLX");
+}
+if(number==661){
+    System.out.println("DCLXI");
+}
+if(number==662){
+    System.out.println("DCLXII");
+}
+if(number==663){
+    System.out.println("DCLXIII");
+}
+if(number==664){
+    System.out.println("DCLXIV");
+}
+if(number==665){
+    System.out.println("DCLXV");
+}
+if(number==666){
+    System.out.println("DCLXVI");
+}
+if(number==667){
+    System.out.println("DCLXVII");
+}
+if(number==668){
+    System.out.println("DCLXVIII");
+}
+if(number==669){
+    System.out.println("DCLXIX");
+}
+if(number==670){
+    System.out.println("DCLXX");
+}
+if(number==671){
+    System.out.println("DCLXXI");
+}
+if(number==672){
+    System.out.println("DCLXXII");
+}
+if(number==673){
+    System.out.println("DCLXXIII");
+}
+if(number==674){
+    System.out.println("DCLXXIV");
+}
+if(number==675){
+    System.out.println("DCLXXV");
+}
+if(number==676){
+    System.out.println("DCLXXVI");
+}
+if(number==677){
+    System.out.println("DCLXXVII");
+}
+if(number==678){
+    System.out.println("DCLXXVIII");
+}
+if(number==679){
+    System.out.println("DCLXXIX");
+}
+if(number==680){
+    System.out.println("DCLXXX");
+}
+if(number==681){
+    System.out.println("DCLXXXI");
+}
+if(number==682){
+    System.out.println("DCLXXXII");
+}
+if(number==683){
+    System.out.println("DCLXXXIII");
+}
+if(number==684){
+    System.out.println("DCLXXXIV");
+}
+if(number==685){
+    System.out.println("DCLXXXV");
+}
+if(number==686){
+    System.out.println("DCLXXXVI");
+}
+if(number==687){
+    System.out.println("DCLXXXVII");
+}
+if(number==688){
+    System.out.println("DCLXXXVIII");
+}
+if(number==689){
+    System.out.println("DCLXXXIX");
+}
+if(number==690){
+    System.out.println("DCXC");
+}
+if(number==691){
+    System.out.println("DCXCI");
+}
+if(number==692){
+    System.out.println("DCXCII");
+}
+if(number==693){
+    System.out.println("DCXCIII");
+}
+if(number==694){
+    System.out.println("DCXCIV");
+}
+if(number==695){
+    System.out.println("DCXCV");
+}
+if(number==696){
+    System.out.println("DCXCVI");
+}
+if(number==697){
+    System.out.println("DCXCVII");
+}
+if(number==698){
+    System.out.println("DCXCVIII");
+}
+if(number==699){
+    System.out.println("DCXCIX");
+}
+if(number==700){
+    System.out.println("DCC");
+}
+if(number==701){
+    System.out.println("DCCI");
+}
+if(number==702){
+    System.out.println("DCCII");
+}
+if(number==703){
+    System.out.println("DCCIII");
+}
+if(number==704){
+    System.out.println("DCCIV");
+}
+if(number==705){
+    System.out.println("DCCV");
+}
+if(number==706){
+    System.out.println("DCCVI");
+}
+if(number==707){
+    System.out.println("DCCVII");
+}
+if(number==708){
+    System.out.println("DCCVIII");
+}
+if(number==709){
+    System.out.println("DCCIX");
+}
+if(number==710){
+    System.out.println("DCCX");
+}
+if(number==711){
+    System.out.println("DCCXI");
+}
+if(number==712){
+    System.out.println("DCCXII");
+}
+if(number==713){
+    System.out.println("DCCXIII");
+}
+if(number==714){
+    System.out.println("DCCXIV");
+}
+if(number==715){
+    System.out.println("DCCXV");
+}
+if(number==716){
+    System.out.println("DCCXVI");
+}
+if(number==717){
+    System.out.println("DCCXVII");
+}
+if(number==718){
+    System.out.println("DCCXVIII");
+}
+if(number==719){
+    System.out.println("DCCXIX");
+}
+if(number==720){
+    System.out.println("DCCXX");
+}
+if(number==721){
+    System.out.println("DCCXXI");
+}
+if(number==722){
+    System.out.println("DCCXXII");
+}
+if(number==723){
+    System.out.println("DCCXXIII");
+}
+if(number==724){
+    System.out.println("DCCXXIV");
+}
+if(number==725){
+    System.out.println("DCCXXV");
+}
+if(number==726){
+    System.out.println("DCCXXVI");
+}
+if(number==727){
+    System.out.println("DCCXXVII");
+}
+if(number==728){
+    System.out.println("DCCXXVIII");
+}
+if(number==729){
+    System.out.println("DCCXXIX");
+}
+if(number==730){
+    System.out.println("DCCXXX");
+}
+if(number==731){
+    System.out.println("DCCXXXI");
+}
+if(number==732){
+    System.out.println("DCCXXXII");
+}
+if(number==733){
+    System.out.println("DCCXXXIII");
+}
+if(number==734){
+    System.out.println("DCCXXXIV");
+}
+if(number==735){
+    System.out.println("DCCXXXV");
+}
+if(number==736){
+    System.out.println("DCCXXXVI");
+}
+if(number==737){
+    System.out.println("DCCXXXVII");
+}
+if(number==738){
+    System.out.println("DCCXXXVIII");
+}
+if(number==739){
+    System.out.println("DCCXXXIX");
+}
+if(number==740){
+    System.out.println("DCCXL");
+}
+if(number==741){
+    System.out.println("DCCXLI");
+}
+if(number==742){
+    System.out.println("DCCXLII");
+}
+if(number==743){
+    System.out.println("DCCXLIII");
+}
+if(number==744){
+    System.out.println("DCCXLIV");
+}
+if(number==745){
+    System.out.println("DCCXLV");
+}
+if(number==746){
+    System.out.println("DCCXLVI");
+}
+if(number==747){
+    System.out.println("DCCXLVII");
+}
+if(number==748){
+    System.out.println("DCCXLVIII");
+}
+if(number==749){
+    System.out.println("DCCXLIX");
+}
+if(number==750){
+    System.out.println("DCCL");
+}
+if(number==751){
+    System.out.println("DCCLI");
+}
+if(number==752){
+    System.out.println("DCCLII");
+}
+if(number==753){
+    System.out.println("DCCLIII");
+}
+if(number==754){
+    System.out.println("DCCLIV");
+}
+if(number==755){
+    System.out.println("DCCLV");
+}
+if(number==756){
+    System.out.println("DCCLVI");
+}
+if(number==757){
+    System.out.println("DCCLVII");
+}
+if(number==758){
+    System.out.println("DCCLVIII");
+}
+if(number==759){
+    System.out.println("DCCLIX");
+}
+if(number==760){
+    System.out.println("DCCLX");
+}
+if(number==761){
+    System.out.println("DCCLXI");
+}
+if(number==762){
+    System.out.println("DCCLXII");
+}
+if(number==763){
+    System.out.println("DCCLXIII");
+}
+if(number==764){
+    System.out.println("DCCLXIV");
+}
+if(number==765){
+    System.out.println("DCCLXV");
+}
+if(number==766){
+    System.out.println("DCCLXVI");
+}
+if(number==767){
+    System.out.println("DCCLXVII");
+}
+if(number==768){
+    System.out.println("DCCLXVIII");
+}
+if(number==769){
+    System.out.println("DCCLXIX");
+}
+if(number==770){
+    System.out.println("DCCLXX");
+}
+if(number==771){
+    System.out.println("DCCLXXI");
+}
+if(number==772){
+    System.out.println("DCCLXXII");
+}
+if(number==773){
+    System.out.println("DCCLXXIII");
+}
+if(number==774){
+    System.out.println("DCCLXXIV");
+}
+if(number==775){
+    System.out.println("DCCLXXV");
+}
+if(number==776){
+    System.out.println("DCCLXXVI");
+}
+if(number==777){
+    System.out.println("DCCLXXVII");
+}
+if(number==778){
+    System.out.println("DCCLXXVIII");
+}
+if(number==779){
+    System.out.println("DCCLXXIX");
+}
+if(number==780){
+    System.out.println("DCCLXXX");
+}
+if(number==781){
+    System.out.println("DCCLXXXI");
+}
+if(number==782){
+    System.out.println("DCCLXXXII");
+}
+if(number==783){
+    System.out.println("DCCLXXXIII");
+}
+if(number==784){
+    System.out.println("DCCLXXXIV");
+}
+if(number==785){
+    System.out.println("DCCLXXXV");
+}
+if(number==786){
+    System.out.println("DCCLXXXVI");
+}
+if(number==787){
+    System.out.println("DCCLXXXVII");
+}
+if(number==788){
+    System.out.println("DCCLXXXVIII");
+}
+if(number==789){
+    System.out.println("DCCLXXXIX");
+}
+if(number==790){
+    System.out.println("DCCXC");
+}
+if(number==791){
+    System.out.println("DCCXCI");
+}
+if(number==792){
+    System.out.println("DCCXCII");
+}
+if(number==793){
+    System.out.println("DCCXCIII");
+}
+if(number==794){
+    System.out.println("DCCXCIV");
+}
+if(number==795){
+    System.out.println("DCCXCV");
+}
+if(number==796){
+    System.out.println("DCCXCVI");
+}
+if(number==797){
+    System.out.println("DCCXCVII");
+}
+if(number==798){
+    System.out.println("DCCXCVIII");
+}
+if(number==799){
+    System.out.println("DCCXCIX");
+}
+if(number==800){
+    System.out.println("DCCC");
+}
+if(number==801){
+    System.out.println("DCCCI");
+}
+if(number==802){
+    System.out.println("DCCCII");
+}
+if(number==803){
+    System.out.println("DCCCIII");
+}
+if(number==804){
+    System.out.println("DCCCIV");
+}
+if(number==805){
+    System.out.println("DCCCV");
+}
+if(number==806){
+    System.out.println("DCCCVI");
+}
+if(number==807){
+    System.out.println("DCCCVII");
+}
+if(number==808){
+    System.out.println("DCCCVIII");
+}
+if(number==809){
+    System.out.println("DCCCIX");
+}
+if(number==810){
+    System.out.println("DCCCX");
+}
+if(number==811){
+    System.out.println("DCCCXI");
+}
+if(number==812){
+    System.out.println("DCCCXII");
+}
+if(number==813){
+    System.out.println("DCCCXIII");
+}
+if(number==814){
+    System.out.println("DCCCXIV");
+}
+if(number==815){
+    System.out.println("DCCCXV");
+}
+if(number==816){
+    System.out.println("DCCCXVI");
+}
+if(number==817){
+    System.out.println("DCCCXVII");
+}
+if(number==818){
+    System.out.println("DCCCXVIII");
+}
+if(number==819){
+    System.out.println("DCCCXIX");
+}
+if(number==820){
+    System.out.println("DCCCXX");
+}
+if(number==821){
+    System.out.println("DCCCXXI");
+}
+if(number==822){
+    System.out.println("DCCCXXII");
+}
+if(number==823){
+    System.out.println("DCCCXXIII");
+}
+if(number==824){
+    System.out.println("DCCCXXIV");
+}
+if(number==825){
+    System.out.println("DCCCXXV");
+}
+if(number==826){
+    System.out.println("DCCCXXVI");
+}
+if(number==827){
+    System.out.println("DCCCXXVII");
+}
+if(number==828){
+    System.out.println("DCCCXXVIII");
+}
+if(number==829){
+    System.out.println("DCCCXXIX");
+}
+if(number==830){
+    System.out.println("DCCCXXX");
+}
+if(number==831){
+    System.out.println("DCCCXXXI");
+}
+if(number==832){
+    System.out.println("DCCCXXXII");
+}
+if(number==833){
+    System.out.println("DCCCXXXIII");
+}
+if(number==834){
+    System.out.println("DCCCXXXIV");
+}
+if(number==835){
+    System.out.println("DCCCXXXV");
+}
+if(number==836){
+    System.out.println("DCCCXXXVI");
+}
+if(number==837){
+    System.out.println("DCCCXXXVII");
+}
+if(number==838){
+    System.out.println("DCCCXXXVIII");
+}
+if(number==839){
+    System.out.println("DCCCXXXIX");
+}
+if(number==840){
+    System.out.println("DCCCXL");
+}
+if(number==841){
+    System.out.println("DCCCXLI");
+}
+if(number==842){
+    System.out.println("DCCCXLII");
+}
+if(number==843){
+    System.out.println("DCCCXLIII");
+}
+if(number==844){
+    System.out.println("DCCCXLIV");
+}
+if(number==845){
+    System.out.println("DCCCXLV");
+}
+if(number==846){
+    System.out.println("DCCCXLVI");
+}
+if(number==847){
+    System.out.println("DCCCXLVII");
+}
+if(number==848){
+    System.out.println("DCCCXLVIII");
+}
+if(number==849){
+    System.out.println("DCCCXLIX");
+}
+if(number==850){
+    System.out.println("DCCCL");
+}
+if(number==851){
+    System.out.println("DCCCLI");
+}
+if(number==852){
+    System.out.println("DCCCLII");
+}
+if(number==853){
+    System.out.println("DCCCLIII");
+}
+if(number==854){
+    System.out.println("DCCCLIV");
+}
+if(number==855){
+    System.out.println("DCCCLV");
+}
+if(number==856){
+    System.out.println("DCCCLVI");
+}
+if(number==857){
+    System.out.println("DCCCLVII");
+}
+if(number==858){
+    System.out.println("DCCCLVIII");
+}
+if(number==859){
+    System.out.println("DCCCLIX");
+}
+if(number==860){
+    System.out.println("DCCCLX");
+}
+if(number==861){
+    System.out.println("DCCCLXI");
+}
+if(number==862){
+    System.out.println("DCCCLXII");
+}
+if(number==863){
+    System.out.println("DCCCLXIII");
+}
+if(number==864){
+    System.out.println("DCCCLXIV");
+}
+if(number==865){
+    System.out.println("DCCCLXV");
+}
+if(number==866){
+    System.out.println("DCCCLXVI");
+}
+if(number==867){
+    System.out.println("DCCCLXVII");
+}
+if(number==868){
+    System.out.println("DCCCLXVIII");
+}
+if(number==869){
+    System.out.println("DCCCLXIX");
+}
+if(number==870){
+    System.out.println("DCCCLXX");
+}
+if(number==871){
+    System.out.println("DCCCLXXI");
+}
+if(number==872){
+    System.out.println("DCCCLXXII");
+}
+if(number==873){
+    System.out.println("DCCCLXXIII");
+}
+if(number==874){
+    System.out.println("DCCCLXXIV");
+}
+if(number==875){
+    System.out.println("DCCCLXXV");
+}
+if(number==876){
+    System.out.println("DCCCLXXVI");
+}
+if(number==877){
+    System.out.println("DCCCLXXVII");
+}
+if(number==878){
+    System.out.println("DCCCLXXVIII");
+}
+if(number==879){
+    System.out.println("DCCCLXXIX");
+}
+if(number==880){
+    System.out.println("DCCCLXXX");
+}
+if(number==881){
+    System.out.println("DCCCLXXXI");
+}
+if(number==882){
+    System.out.println("DCCCLXXXII");
+}
+if(number==883){
+    System.out.println("DCCCLXXXIII");
+}
+if(number==884){
+    System.out.println("DCCCLXXXIV");
+}
+if(number==885){
+    System.out.println("DCCCLXXXV");
+}
+if(number==886){
+    System.out.println("DCCCLXXXVI");
+}
+if(number==887){
+    System.out.println("DCCCLXXXVII");
+}
+if(number==888){
+    System.out.println("DCCCLXXXVIII");
+}
+if(number==889){
+    System.out.println("DCCCLXXXIX");
+}
+if(number==890){
+    System.out.println("DCCCXC");
+}
+if(number==891){
+    System.out.println("DCCCXCI");
+}
+if(number==892){
+    System.out.println("DCCCXCII");
+}
+if(number==893){
+    System.out.println("DCCCXCIII");
+}
+if(number==894){
+    System.out.println("DCCCXCIV");
+}
+if(number==895){
+    System.out.println("DCCCXCV");
+}
+if(number==896){
+    System.out.println("DCCCXCVI");
+}
+if(number==897){
+    System.out.println("DCCCXCVII");
+}
+if(number==898){
+    System.out.println("DCCCXCVIII");
+}
+if(number==899){
+    System.out.println("DCCCXCIX");
+}
+if(number==900){
+    System.out.println("CM");
+}
+if(number==901){
+    System.out.println("CMI");
+}
+if(number==902){
+    System.out.println("CMII");
+}
+if(number==903){
+    System.out.println("CMIII");
+}
+if(number==904){
+    System.out.println("CMIV");
+}
+if(number==905){
+    System.out.println("CMV");
+}
+if(number==906){
+    System.out.println("CMVI");
+}
+if(number==907){
+    System.out.println("CMVII");
+}
+if(number==908){
+    System.out.println("CMVIII");
+}
+if(number==909){
+    System.out.println("CMIX");
+}
+if(number==910){
+    System.out.println("CMX");
+}
+if(number==911){
+    System.out.println("CMXI");
+}
+if(number==912){
+    System.out.println("CMXII");
+}
+if(number==913){
+    System.out.println("CMXIII");
+}
+if(number==914){
+    System.out.println("CMXIV");
+}
+if(number==915){
+    System.out.println("CMXV");
+}
+if(number==916){
+    System.out.println("CMXVI");
+}
+if(number==917){
+    System.out.println("CMXVII");
+}
+if(number==918){
+    System.out.println("CMXVIII");
+}
+if(number==919){
+    System.out.println("CMXIX");
+}
+if(number==920){
+    System.out.println("CMXX");
+}
+if(number==921){
+    System.out.println("CMXXI");
+}
+if(number==922){
+    System.out.println("CMXXII");
+}
+if(number==923){
+    System.out.println("CMXXIII");
+}
+if(number==924){
+    System.out.println("CMXXIV");
+}
+if(number==925){
+    System.out.println("CMXXV");
+}
+if(number==926){
+    System.out.println("CMXXVI");
+}
+if(number==927){
+    System.out.println("CMXXVII");
+}
+if(number==928){
+    System.out.println("CMXXVIII");
+}
+if(number==929){
+    System.out.println("CMXXIX");
+}
+if(number==930){
+    System.out.println("CMXXX");
+}
+if(number==931){
+    System.out.println("CMXXXI");
+}
+if(number==932){
+    System.out.println("CMXXXII");
+}
+if(number==933){
+    System.out.println("CMXXXIII");
+}
+if(number==934){
+    System.out.println("CMXXXIV");
+}
+if(number==935){
+    System.out.println("CMXXXV");
+}
+if(number==936){
+    System.out.println("CMXXXVI");
+}
+if(number==937){
+    System.out.println("CMXXXVII");
+}
+if(number==938){
+    System.out.println("CMXXXVIII");
+}
+if(number==939){
+    System.out.println("CMXXXIX");
+}
+if(number==940){
+    System.out.println("CMXL");
+}
+if(number==941){
+    System.out.println("CMXLI");
+}
+if(number==942){
+    System.out.println("CMXLII");
+}
+if(number==943){
+    System.out.println("CMXLIII");
+}
+if(number==944){
+    System.out.println("CMXLIV");
+}
+if(number==945){
+    System.out.println("CMXLV");
+}
+if(number==946){
+    System.out.println("CMXLVI");
+}
+if(number==947){
+    System.out.println("CMXLVII");
+}
+if(number==948){
+    System.out.println("CMXLVIII");
+}
+if(number==949){
+    System.out.println("CMXLIX");
+}
+if(number==950){
+    System.out.println("CML");
+}
+if(number==951){
+    System.out.println("CMLI");
+}
+if(number==952){
+    System.out.println("CMLII");
+}
+if(number==953){
+    System.out.println("CMLIII");
+}
+if(number==954){
+    System.out.println("CMLIV");
+}
+if(number==955){
+    System.out.println("CMLV");
+}
+if(number==956){
+    System.out.println("CMLVI");
+}
+if(number==957){
+    System.out.println("CMLVII");
+}
+if(number==958){
+    System.out.println("CMLVIII");
+}
+if(number==959){
+    System.out.println("CMLIX");
+}
+if(number==960){
+    System.out.println("CMLX");
+}
+if(number==961){
+    System.out.println("CMLXI");
+}
+if(number==962){
+    System.out.println("CMLXII");
+}
+if(number==963){
+    System.out.println("CMLXIII");
+}
+if(number==964){
+    System.out.println("CMLXIV");
+}
+if(number==965){
+    System.out.println("CMLXV");
+}
+if(number==966){
+    System.out.println("CMLXVI");
+}
+if(number==967){
+    System.out.println("CMLXVII");
+}
+if(number==968){
+    System.out.println("CMLXVIII");
+}
+if(number==969){
+    System.out.println("CMLXIX");
+}
+if(number==970){
+    System.out.println("CMLXX");
+}
+if(number==971){
+    System.out.println("CMLXXI");
+}
+if(number==972){
+    System.out.println("CMLXXII");
+}
+if(number==973){
+    System.out.println("CMLXXIII");
+}
+if(number==974){
+    System.out.println("CMLXXIV");
+}
+if(number==975){
+    System.out.println("CMLXXV");
+}
+if(number==976){
+    System.out.println("CMLXXVI");
+}
+if(number==977){
+    System.out.println("CMLXXVII");
+}
+if(number==978){
+    System.out.println("CMLXXVIII");
+}
+if(number==979){
+    System.out.println("CMLXXIX");
+}
+if(number==980){
+    System.out.println("CMLXXX");
+}
+if(number==981){
+    System.out.println("CMLXXXI");
+}
+if(number==982){
+    System.out.println("CMLXXXII");
+}
+if(number==983){
+    System.out.println("CMLXXXIII");
+}
+if(number==984){
+    System.out.println("CMLXXXIV");
+}
+if(number==985){
+    System.out.println("CMLXXXV");
+}
+if(number==986){
+    System.out.println("CMLXXXVI");
+}
+if(number==987){
+    System.out.println("CMLXXXVII");
+}
+if(number==988){
+    System.out.println("CMLXXXVIII");
+}
+if(number==989){
+    System.out.println("CMLXXXIX");
+}
+if(number==990){
+    System.out.println("CMXC");
+}
+if(number==991){
+    System.out.println("CMXCI");
+}
+if(number==992){
+    System.out.println("CMXCII");
+}
+if(number==993){
+    System.out.println("CMXCIII");
+}
+if(number==994){
+    System.out.println("CMXCIV");
+}
+if(number==995){
+    System.out.println("CMXCV");
+}
+if(number==996){
+    System.out.println("CMXCVI");
+}
+if(number==997){
+    System.out.println("CMXCVII");
+}
+if(number==998){
+    System.out.println("CMXCVIII");
+}
+if(number==999){
+    System.out.println("CMXCIX");
+}
+if(number==1000){
+    System.out.println("M");
+}
+
+              
+   }
+    
+    
+}
